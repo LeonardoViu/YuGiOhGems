@@ -1,0 +1,320 @@
+{
+"Niveles": [ { "ID": 1, 
+               "levels":["0", "10", "10", "10", "10", "25", "25", "25", "50", "50", "50", "85", "85", "85", "135", "135", "195", "195", "270", "270", "270", "370", "370", "490", "490", "640", "640", "840", "1090", "1390", "1390", "1590", "1590", "1840", "1840", "1840", "2040", "2040", "2290", "2290", "2290", "2390", "2590", "2840", "2840"] },
+             { "ID": 2, 
+               "levels":["0", "10", "10", "10", "10", "25", "25", "25", "50", "50", "50", "85", "85", "85", "135", "135", "195", "195", "270", "270", "270", "370", "370", "490", "490", "640", "640", "840", "1090", "1090", "1090", "1290", "1290", "1540", "1540", "1540", "1740", "1740", "1990", "1990", "1990", "2090", "2290", "2540", "2540"] },
+             { "ID": 3, 
+               "levels":["0", "0", "0", "0", "0", "0", "15", "15", "15", "45", "45", "85", "85", "85", "135", "135", "195", "195", "270", "270", "270", "370", "370", "490", "490", "640", "640", "840", "1090", "1390", "1390", "1590", "1590", "1840", "1840", "1840", "2040", "2040", "2290", "2290", "2290", "2390", "2590", "2840", "2840"] },
+             { "ID": 4, 
+               "levels":["0", "10", "10", "20", "20", "35", "35", "35", "60", "60", "60", "95", "95", "95", "145", "145", "205", "205", "280", "280", "280", "380", "380", "500", "500", "640", "640", "840", "1090", "1090", "1090", "1290", "1290", "1540", "1540", "1540", "1740", "1740", "1990", "1990", "1990", "2090", "2290", "2540", "2540"] },
+             { "ID": 5, 
+               "levels":["0", "5", "5", "15", "15", "30", "30", "30", "50", "50", "50", "85", "85", "85", "135", "135", "195", "195", "270", "270", "270", "370", "370", "490", "490", "640", "640", "840", "1090", "1090", "1090", "1290", "1290", "1540", "1540", "1540", "1740", "1740", "1990", "1990", "1990", "2090", "2290", "2540", "2540"] }
+           ],
+"Personajes": [ 
+              {
+              "Name" : "Atem",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Kaiba",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Joey",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Mai",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Tea",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Yugi",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Weevil",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Rex",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Mako",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Marik",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Bakura",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Bandith",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Ishizu",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Odion",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Pegasus",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Mokuba",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Paradox",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Arkana",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Bonz",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "EspaRoba",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Tristan",
+              "ID" : 2,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "LumisUmbra",
+              "ID" : 2,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Kaiba2",
+              "ID" : 2,
+              "WorldLevels" : 35
+			  },
+			  {
+              "Name" : "Mokuba2",
+              "ID" : 2,
+              "WorldLevels" : 35
+			  },
+			  {
+              "Name" : "Yugi2",
+              "ID" : 2,
+              "WorldLevels" : 35
+			  },
+			  {
+              "Name" : "Joey2",
+              "ID" : 2,
+              "WorldLevels" : 35
+			  },
+			  {
+              "Name" : "Tea2",
+              "ID" : 2,
+              "WorldLevels" : 35
+			  },
+			  {
+              "Name" : "Aigami",
+              "ID" : 2,
+              "WorldLevels" : 35
+			  },
+			  {
+              "Name" : "Sera",
+              "ID" : 2,
+              "WorldLevels" : 35
+			  },
+			  {
+              "Name" : "Scud",
+              "ID" : 2,
+              "WorldLevels" : 35
+			  },
+			  {
+              "Name" : "Jaden",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Zane",
+              "ID" : 2,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Aster",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Jesse",
+              "ID" : 3,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Chazz",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Alexis",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Crowler",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Yubel",
+              "ID" : 2,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Bastion",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Syrus",
+              "ID" : 1,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Tyranno",
+              "ID" : 2,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Kumar",
+              "ID" : 2,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "JadenYubel",
+              "ID" : 4,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Blair",
+              "ID" : 2,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Axel",
+              "ID" : 5,
+              "WorldLevels" : 45
+			  },
+			  {
+              "Name" : "Yusei",
+              "ID" : 4,
+              "WorldLevels" : 40
+			  },
+			  {
+              "Name" : "Jack",
+              "ID" : 4,
+              "WorldLevels" : 40
+			  },
+			  {
+              "Name" : "Crow",
+              "ID" : 4,
+              "WorldLevels" : 40
+			  },
+			  {
+              "Name" : "Akiza",
+              "ID" : 4,
+              "WorldLevels" : 40
+			  },
+			  {
+              "Name" : "Leo",
+              "ID" : 2,
+              "WorldLevels" : 40
+			  },
+			  {
+              "Name" : "Luna",
+              "ID" : 4,
+              "WorldLevels" : 40
+			  },
+			  {
+              "Name" : "Trudge",
+              "ID" : 2,
+              "WorldLevels" : 40
+			  },
+			  {
+              "Name" : "DarKalin",
+              "ID" : 2,
+              "WorldLevels" : 40
+			  },
+			  {
+              "Name" : "DarkCarly",
+              "ID" : 2,
+              "WorldLevels" : 40
+			  },
+			  {
+              "Name" : "Goodwin",
+              "ID" : 2,
+              "WorldLevels" : 40
+			  },
+			  {
+              "Name" : "Kalin",
+              "ID" : 2,
+              "WorldLevels" : 40
+			  },
+			  {
+              "Name" : "Carly",
+              "ID" : 2,
+              "WorldLevels" : 40
+			  },
+			  {
+              "Name" : "Yuma",
+              "ID" : 5,
+              "WorldLevels" : 30
+			  },
+			  {
+              "Name" : "Reginal",
+              "ID" : 5,
+              "WorldLevels" : 30
+			  },
+			  {
+              "Name" : "Bronk",
+              "ID" : 5,
+              "WorldLevels" : 30
+			  },
+			  {
+              "Name" : "Tori",
+              "ID" : 5,
+              "WorldLevels" : 30
+			  }
+              ]
+}

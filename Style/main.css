@@ -1,0 +1,124 @@
+body {
+    background-image: url("Images/FondoCarta.jpg");
+    background-repeat: repeat-y repeat-x;
+}
+
+span {
+	color: purple;
+}
+
+button {
+	border-radius: 5px;
+}
+
+p {
+	margin-bottom: 0px;
+	font-size: 25px;
+}
+
+.select, img{
+	display: block;
+	margin: 5px;
+	max-width: 150px;
+	min-width: 150px;
+}
+
+.col-6.col-md-3 {
+    padding: 0px;
+    max-width: 160px;
+    min-width: 160px;
+}
+
+#P1, #P3{
+	background-color: rgba(240, 248, 255, 0.7);
+}
+
+#P3{
+	display: none;
+}
+
+.containerIn{
+	background-color: rgba(47, 79, 79, 0.7);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+	border: 2px solid transparent;
+	border-color: black;
+    /*HASTA ACA ES SOLO EL DISEÑO COLORIDO*/
+
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) { 
+    .containerIn {
+        max-width: 655px;
+        min-width: 655px;
+    }
+    .row{
+        max-width: 640px;
+        min-width: 640px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+	.row:first-child {
+		margin-top: 5px;
+	}
+	.row:last-child {
+		margin-bottom: 5px;
+	}
+}
+
+@media (max-width: 767.98px) and (min-width: 368px){
+    .containerIn {
+        max-width: 335px;
+        min-width: 335px;
+    }
+    .row{
+        max-width: 320px;
+        min-width: 320px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+	.row:first-child {
+		margin-top: 5px;
+	}
+	.row:last-child {
+		margin-bottom: 5px;
+	}
+}
+
+@media (max-width: 367.98px) {
+    .select, img{
+	    display: block;
+	    width: 100%;
+        height: auto;
+        max-width: 150px;
+        min-width: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;	
+    }
+    .col-6.col-md-3{
+        width: 100%;
+        height: auto;
+        max-width: 160px;
+        min-width: 1px;
+    }
+	.containerIn {
+        max-width: 335px;
+        min-width: 1px;
+    }
+	.row{
+        max-width: 320px;
+        min-width: 1px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+
+
