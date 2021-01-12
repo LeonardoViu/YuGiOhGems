@@ -4,12 +4,11 @@ window.onload = function() {
 	request.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             const personasInfo = JSON.parse(request.response);
-		    let numeroRow = 16; /* <---------------------------------------------------------------NUMERO DE FILAS */
+		    let numeroFilas = 16; /* <-------------------------------------------------------------NUMERO DE FILAS */
 	        let texto = '';
 	        let nombreImagen = 'Style/Images/CharIcon'; 
-	        let nombreId = 'levelChar';
 			let NP = 0; 
-	        for (let i=0; i<numeroRow; i++){
+	        for (let i=0; i<numeroFilas; i++){
 		        texto += '<div class="row">';
 		        let u = 1 + i*4;
 		        let d = 1+((i+1)*4);
@@ -17,7 +16,7 @@ window.onload = function() {
 					let nivel = 0;
 			        nombreImagen += u;
 			        texto += '<div class="col-6 col-md-3">' + '<img src="' + nombreImagen + '.png">' + 
-			        '<select class="select" name="level" id="levelChar' + u + '">'; 
+			        '<select class="select">'; 
 			        for (let z=1; z<personasInfo.Personajes[NP].WorldLevels+1; z++){  
 				        texto += '<option value="'; 
 						switch(personasInfo.Personajes[NP].ID) {
@@ -58,6 +57,8 @@ window.onload = function() {
 	
 };
 
+const totalGemas = 142940; /* <-----------------------------------------------------------------TOTAL DE LAS GEMAS */
+
 function calculo() {
 	let selects = document.getElementsByTagName("SELECT");
 	let sumaGemas = 0;
@@ -66,5 +67,6 @@ function calculo() {
     }
 	document.getElementById('P3').style.display = "block";
 	document.getElementById('resultado').innerHTML = sumaGemas;
-	document.getElementById('resto').innerHTML = 142940 - sumaGemas;
+	document.getElementById('resto1').innerHTML = totalGemas;
+	document.getElementById('resto2').innerHTML = totalGemas - sumaGemas;
 };
