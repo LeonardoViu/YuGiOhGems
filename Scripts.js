@@ -42,7 +42,7 @@ window.onload = function() {
 			        texto += '</select></div>';
 			        nombreImagen = nombreImagen.slice(0,21);
 					NP++;
-			        if (u>60){ /* <---------PARA EVITAR ERRORES CON LA ULTIMA FILA SI QUEDAN MENOS DE 4 PERSONAJES */
+			        if (u>61){ /* <---------PARA EVITAR ERRORES CON LA ULTIMA FILA SI QUEDAN MENOS DE 4 PERSONAJES */
 				        break;
 			        }
 		        }
