@@ -57,7 +57,7 @@ window.onload = function() {
 	
 };
 
-const totalGemas = 142940; /* <-----------------------------------------------------------------TOTAL DE LAS GEMAS */
+const totalGemas = 144030; /* <-----------------------------------------------------------------TOTAL DE LAS GEMAS */
 
 function calculo() {
 	let selects = document.getElementsByTagName("SELECT");

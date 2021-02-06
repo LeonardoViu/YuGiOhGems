@@ -315,6 +315,11 @@
               "Name" : "Tori",
               "ID" : 5,
               "WorldLevels" : 30
+			  },
+			  {
+              "Name" : "Kite",
+              "ID" : 5,
+              "WorldLevels" : 30
 			  }
               ]
 }
