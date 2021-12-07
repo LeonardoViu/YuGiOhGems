@@ -4,7 +4,7 @@ window.onload = function() {
 	request.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             const personasInfo = JSON.parse(request.response);
-		    let numeroFilas = 16; /* <-------------------------------------------------------------NUMERO DE FILAS */
+		    let numeroFilas = 19; /* <-------------------------------------------------------------NUMERO DE FILAS */
 	        let texto = '';
 	        let nombreImagen = 'Style/Images/CharIcon'; 
 			let NP = 0; 
@@ -42,7 +42,7 @@ window.onload = function() {
 			        texto += '</select></div>';
 			        nombreImagen = nombreImagen.slice(0,21);
 					NP++;
-			        if (u>61){ /* <---------PARA EVITAR ERRORES CON LA ULTIMA FILA SI QUEDAN MENOS DE 4 PERSONAJES */
+			        if (u>73){ /* <---------PARA EVITAR ERRORES CON LA ULTIMA FILA SI QUEDAN MENOS DE 4 PERSONAJES (VA EL NUMERO EXACTO DE PERSONAJES) */
 				        break;
 			        }
 		        }
@@ -57,7 +57,7 @@ window.onload = function() {
 	
 };
 
-const totalGemas = 144030; /* <-----------------------------------------------------------------TOTAL DE LAS GEMAS */
+const totalGemas = 163870; /* <-----------------------------------------------------------------TOTAL DE LAS GEMAS */
 
 function calculo() {
 	let selects = document.getElementsByTagName("SELECT");

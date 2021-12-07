@@ -122,6 +122,11 @@
               "WorldLevels" : 45
 			  },
 			  {
+              "Name" : "Duke",
+              "ID" : 5,
+              "WorldLevels" : 45
+			  },
+			  {
               "Name" : "Kaiba2",
               "ID" : 2,
               "WorldLevels" : 35
@@ -237,6 +242,11 @@
               "WorldLevels" : 45
 			  },
 			  {
+              "Name" : "KingJaden",
+              "ID" : 5,
+              "WorldLevels" : 45
+			  },
+			  {
               "Name" : "Yusei",
               "ID" : 4,
               "WorldLevels" : 40
@@ -277,6 +287,11 @@
               "WorldLevels" : 40
 			  },
 			  {
+              "Name" : "Antinomy",
+              "ID" : 5,
+              "WorldLevels" : 40
+			  },
+			  {
               "Name" : "DarkCarly",
               "ID" : 2,
               "WorldLevels" : 40
@@ -297,27 +312,67 @@
               "WorldLevels" : 40
 			  },
 			  {
+              "Name" : "Primo",
+              "ID" : 5,
+              "WorldLevels" : 40
+			  },
+			  {
               "Name" : "Yuma",
               "ID" : 5,
-              "WorldLevels" : 30
+              "WorldLevels" : 35
 			  },
 			  {
               "Name" : "Reginal",
               "ID" : 5,
-              "WorldLevels" : 30
+              "WorldLevels" : 35
 			  },
 			  {
               "Name" : "Bronk",
               "ID" : 5,
-              "WorldLevels" : 30
+              "WorldLevels" : 35
 			  },
 			  {
               "Name" : "Tori",
               "ID" : 5,
-              "WorldLevels" : 30
+              "WorldLevels" : 35
 			  },
 			  {
               "Name" : "Kite",
+              "ID" : 5,
+              "WorldLevels" : 35
+			  },
+			  {
+              "Name" : "Trey",
+              "ID" : 5,
+              "WorldLevels" : 35
+			  },
+			  {
+              "Name" : "Quattro",
+              "ID" : 5,
+              "WorldLevels" : 35
+			  },
+			  {
+              "Name" : "Yuya",
+              "ID" : 5,
+              "WorldLevels" : 30
+			  },
+			  {
+              "Name" : "Zuzu",
+              "ID" : 5,
+              "WorldLevels" : 30
+			  },
+			  {
+              "Name" : "Gong",
+              "ID" : 5,
+              "WorldLevels" : 30
+			  },
+			  {
+              "Name" : "Sylvio",
+              "ID" : 5,
+              "WorldLevels" : 30
+			  },
+			  {
+              "Name" : "Declan",
               "ID" : 5,
               "WorldLevels" : 30
 			  }
